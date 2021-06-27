@@ -3,15 +3,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecommerce Website Design</title>
+    <title>All Products - Ecommerce Website Design</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
 </head>
 <body>
-    <div class="header">
 
-    
+
     <div class="container">
         <div class="navbar">
             <div class="log">
@@ -19,8 +18,8 @@
             </div>
             <nav>
                 <ul id="Menuitems">
-                    <li><a href="">Home</a></li>
-                    <li><a href="products.html">Products</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="">Products</a></li>
                     <li><a href="">About</a></li>
                     <li><a href="">Contact</a></li>
                     <li><a href="">Account</a></li>
@@ -29,38 +28,21 @@
             <img src="images/cart.png" width="30px" height="30px" alt="">
             <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
         </div>
-        <div class="row">
-            <div class="col-2">
-                <h1>Give Your Workout<br> A New Style!</h1>
-                <p>Success isn't always about greatness. It's about consistency. Consistent<br> hard work gains success. Greatness will come.</p>
-                <a href="" class="btn">Explore Now &#8594;</a>
-            </div>
-            <div class="col-2">
-                <img src="images/image1.png">
-            </div>
-        </div>
     </div>
-</div>
-<!-- featured categories -->
-<div class="categories">
+
     <div class="small-container">
-        <div class="row">
-            <div class="col-3">
-                <img src="images/category-1.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="images/category-2.jpg" alt="">
-            </div>
-            <div class="col-3">
-                <img src="images/category-3.jpg" alt="">
-            </div>
+        
+        <div class="row row-2">
+            <h2>All Products</h2>
+            <select>
+                <option>Default Shorting</option>
+                <option>Sort by price</option>
+                <option>Sort by popularity</option>
+                <option>Sort by rating</option>
+                <option>Sort by sale</option>
+            </select>
         </div>
-    </div>
-   
-</div>
-<!-- featured products -->
-    <div class="small-container">
-        <h2 class="title">Featured Products</h2>
+
         <div class="row">
             <div class="col-4">
                 <img src="images/product-1.jpg" alt="">
@@ -111,7 +93,6 @@
                 <p>$50.00</p>
             </div>
         </div>
-        <h2 class="title">Latest Products</h2>
         <div class="row">
             <div class="col-4">
                 <img src="images/product-5.jpg" alt="">
@@ -165,7 +146,7 @@
         <div class="row">
             <div class="col-4">
                 <img src="images/product-9.jpg" alt="">
-                <h4>Red Printed T-Shirt</h4>
+                <h4>Grey Shoes</h4>
                 <div class="rating">
                         <i class="fa fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -177,7 +158,7 @@
             </div>
             <div class="col-4">
                 <img src="images/product-10.jpg" alt="">
-                <h4>Black Shoes</h4>
+                <h4>Black Printed Shirt</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -189,7 +170,7 @@
             </div>
             <div class="col-4">
                 <img src="images/product-11.jpg" alt="">
-                <h4>Grey Straight Pants</h4>
+                <h4>Multi-Colored Socks</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fas fa-star"></i>
@@ -201,116 +182,30 @@
             </div>
             <div class="col-4">
                 <img src="images/product-12.jpg" alt="">
-                <h4>Blue Printed T-Shirt</h4>
+                <h4>Watch</h4>
                 <div class="rating">
                     <i class="fa fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>
                     <i class="fas fa-star"></i>                    
                     <i class="far fa-star"></i>
-                </div>
+            </div>
                 <p>$50.00</p>
             </div>
         </div>
-    </div>
-    <!-- Offer -->
-    <div class="offer">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-2">
-                    <img src="images/exclusive.png" class="offer-img" alt="">
-                </div>
-                <div class="col-2">
-                    <p>Exclusively Available on RedStore</p>
-                    <h1>Smart Band 4</h1>
-                    <small>
-                        The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
-                         AMOLED color full-touch display with adjustable brightness, so everything is clear as can be.
-                    </small><br>
-                    <a href="" class="btn">Buy Now &#8594;</a>
-                </div>
-            </div>
+        <div class="page-btn">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>&#8594;</span>
         </div>
+  
     </div>
+   
 
-    <!-- Testimonial -->
-    <div class="testimonial">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Deserunt eos itaque cum, quam explicabo sequi enim illo amet. Ratione, 
-                        distinctio! Sequi magni natus, ullam laboriosam cupiditate dicta nemo necessitatibus esse!</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>                    
-                        <i class="far fa-star"></i>
-                    </div>
-                    <img src="images/user-1.png" alt="">
-                    <h3>Sean Parker</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Deserunt eos itaque cum, quam explicabo sequi enim illo amet. Ratione, 
-                        distinctio! Sequi magni natus, ullam laboriosam cupiditate dicta nemo necessitatibus esse!</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>                    
-                        <i class="far fa-star"></i>
-                    </div>
-                    <img src="images/user-2.png" alt="">
-                    <h3>Mike Smith</h3>
-                </div>
-                <div class="col-3">
-                    <i class="fa fa-quote-left"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Deserunt eos itaque cum, quam explicabo sequi enim illo amet. Ratione, 
-                        distinctio! Sequi magni natus, ullam laboriosam cupiditate dicta nemo necessitatibus esse!</p>
-                    <div class="rating">
-                        <i class="fa fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>                    
-                        <i class="far fa-star"></i>
-                    </div>
-                    <img src="images/user-3.png" alt="">
-                    <h3>Mabel Joe</h3>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Brands -->
-    <div class="brands">
-        <div class="small-container">
-            <div class="row">
-                <div class="col-5">
-                    <img src="images/logo-godrej.png" alt="" >
-                </div>
-           
-                <div class="col-5">
-                    <img src="images/logo-oppo.png" alt="" >
-                </div>
-           
-                <div class="col-5">
-                    <img src="images/logo-coca-cola.png" alt="" >
-                </div>
-            
-                <div class="col-5">
-                    <img src="images/logo-philips.png" alt="" >
-                </div>
-            
-                <div class="col-5">
-                    <img src="images/logo-paypal.png" alt="" >
-                </div>
-            </div>   
-        </div>
-    </div>
+   
+  
     <!-- Footer -->
     <div class="footer">
         <div class="container">
