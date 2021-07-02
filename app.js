@@ -10,6 +10,7 @@ function menutoggle(){
         Menuitems.style.maxHeight ="0px";
     }
 }
+
 var LoginForm = document.getElementById("LoginForm")
 var RegForm = document.getElementById("RegForm")
 var Indicator = document.getElementById("Indicator")
@@ -23,4 +24,23 @@ function login(){
     RegForm.style.transform = "translateX(300px)";
     LoginForm.style.transform = "translateX(300px)";
     Indicator.style.transform = "translateX(0px)";
+}
+
+var ProductImg = document.getElementById("product-img");
+var SmallImg = document.getElementsByClassName("small-img")
+
+SmallImg[0].onclick = function(){
+    ProductImg.src = SmallImg[0].src;
+}
+SmallImg[1].onclick=function()
+{
+    ProductImg.src = SmallImg[1].src;
+}
+SmallImg[2].onclick=function()
+{
+    ProductImg.src = SmallImg[2].src;
+}
+SmallImg[3].onclick=function()
+{
+    ProductImg.src = SmallImg[3].src;
 }
