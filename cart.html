@@ -20,8 +20,8 @@
                 <ul id="Menuitems">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="products.html">Products</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
                     <li><a href="account.html">Account</a></li>
                 </ul>
             </nav>
@@ -45,7 +45,8 @@
                             <p>Red Printed Tshirt</p>
                             <small>Price: $50.00</small>
                             <br>
-                            <a href="">Remove</a>
+                            <button class="remove-btn" type="button">Remove</button>
+                           
                         </div>
                     </div>
                 </td>
@@ -60,7 +61,7 @@
                             <p>HRX Sports Shoes</p>
                             <small>Price: $50.00</small>
                             <br>
-                            <a href="">Remove</a>
+                            <button class="remove-btn" type="button">Remove</button>
                         </div>
                     </div>
                 </td>
@@ -75,7 +76,7 @@
                             <p>HRX Gray Trackpants</p>
                             <small>Price: $50.00</small>
                             <br>
-                            <a href="">Remove</a>
+                            <button class="remove-btn" type="button">Remove</button>
                         </div>
                     </div>
                 </td>
@@ -156,5 +157,15 @@
         </div>
     </div>
 <script src="app.js"></script>
+<script>
+    var removeBtn = document.getElementsByClassName('remove-btn');
+    for(var i = 0; i < removeBtn.length; i++){
+        var button = removeBtn[i]
+        button.addEventListener('click', function(event){
+        var buttonClicked = event.target
+        buttonClicked.parentElement.parentElement.remove();
+        })
+    }
+</script>
 </body>
 </html>
