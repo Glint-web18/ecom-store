@@ -479,7 +479,68 @@ form .btn:focus{
     transform: translateX(100px);
     transition: transform 1s;
 }
+.contact-us{
+    padding: 50px 0;
+    background:radial-gradient(#fff, #a7afdb) ;
+    height: 1050px;
 
+}
+.contact-heading{
+    margin: 0  30px;
+}
+form{
+    padding: 40px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+.form-group label{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.form-group input, textarea{
+    width: 320px;
+    padding: 10px;
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 4px;
+}
+textarea{
+    width: 500px;
+    height: 300px;
+}
+input.invalid{
+    border: 1px solid red;
+}
+.error-hint{
+    color: red;
+}
+hr{
+    height: 1px;
+    background-color: rgba(0,0,0,0.1);
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+ .contact-btn{
+    width: 13% !important;
+    padding: 10px;
+    font-size: 20px;
+    background: none;
+    border: 1px solid ;
+    border-radius: 50px;
+    background-color: #ff523b;
+    color: white;
+}
+.hidden{
+    display: none;
+}
+.thank-you{
+    padding: 40px;
+    font-size: 32px;
+    text-align: center;
+}
 /* media queries */
 @media only screen and (max-width: 800px){
      nav ul{
